@@ -1,0 +1,21 @@
+{
+    "airports": [{
+        "code": "LAX",
+        "name": "Los Angeles"
+    }, {
+        "code": "JFK",
+        "name": "New York"
+    }, {
+        "code": "CUU",
+        "name": "Kolkata"
+    }, {
+        "code": "BHJ",
+        "name": "Kolkata"
+    }, {
+        "code": "NDD",
+        "name": "Kkata"
+    }, {
+        "code": "MUM",
+        "name": "Mumbi"
+    }]
+}

@@ -1,0 +1,3325 @@
+{
+                "OriginLocation": "LAX",
+                "DestinationLocation": "JFK",
+                "FareInfo": [{
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY"],
+                                                "Fare": 437.6
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 874.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1508112000000,
+                                "ReturnDateTime": 1508544000000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-10-16&returndate=2017-10-21&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["VX",
+                                                "SY"],
+                                                "Fare": 740.01
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["VX"],
+                                                "Fare": 874.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1508198400000,
+                                "ReturnDateTime": 1508630400000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-10-17&returndate=2017-10-22&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY",
+                                                "VX"],
+                                                "Fare": 474.7
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 704.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1508284800000,
+                                "ReturnDateTime": 1508716800000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-10-18&returndate=2017-10-23&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY",
+                                                "VX"],
+                                                "Fare": 424.7
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["DL"],
+                                                "Fare": 636.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1508371200000,
+                                "ReturnDateTime": 1508803200000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-10-19&returndate=2017-10-24&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY",
+                                                "VX"],
+                                                "Fare": 374.7
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 636.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1508457600000,
+                                "ReturnDateTime": 1508889600000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-10-20&returndate=2017-10-25&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["VX",
+                                                "SY"],
+                                                "Fare": 566
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 636.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1508544000000,
+                                "ReturnDateTime": 1508976000000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-10-21&returndate=2017-10-26&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY"],
+                                                "Fare": 431.6
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 636.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1508630400000,
+                                "ReturnDateTime": 1509062400000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-10-22&returndate=2017-10-27&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["VX",
+                                                "SY"],
+                                                "Fare": 334.6
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["DL"],
+                                                "Fare": 466.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1508716800000,
+                                "ReturnDateTime": 1509148800000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-10-23&returndate=2017-10-28&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["VX",
+                                                "SY"],
+                                                "Fare": 334.6
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["DL"],
+                                                "Fare": 466.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1508803200000,
+                                "ReturnDateTime": 1509235200000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-10-24&returndate=2017-10-29&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY"],
+                                                "Fare": 294.6
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 376.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1508889600000,
+                                "ReturnDateTime": 1509321600000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-10-25&returndate=2017-10-30&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY"],
+                                                "Fare": 294.6
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 376.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1508976000000,
+                                "ReturnDateTime": 1509408000000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-10-26&returndate=2017-10-31&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY"],
+                                                "Fare": 294.6
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 376.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1509062400000,
+                                "ReturnDateTime": 1509494400000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-10-27&returndate=2017-11-01&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AS"],
+                                                "Fare": 315.01
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 376.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1509148800000,
+                                "ReturnDateTime": 1509580800000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-10-28&returndate=2017-11-02&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY"],
+                                                "Fare": 294.6
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 376.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1509235200000,
+                                "ReturnDateTime": 1509667200000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-10-29&returndate=2017-11-03&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY"],
+                                                "Fare": 263.62
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1509321600000,
+                                "ReturnDateTime": 1509753600000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-10-30&returndate=2017-11-04&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["VX",
+                                                "SY"],
+                                                "Fare": 275.01
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1509408000000,
+                                "ReturnDateTime": 1509840000000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-10-31&returndate=2017-11-05&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY"],
+                                                "Fare": 263.62
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["VX"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1509494400000,
+                                "ReturnDateTime": 1509926400000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-11-01&returndate=2017-11-06&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY"],
+                                                "Fare": 263.62
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["VX"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1509580800000,
+                                "ReturnDateTime": 1510012800000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-11-02&returndate=2017-11-07&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY"],
+                                                "Fare": 263.62
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["DL"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1509667200000,
+                                "ReturnDateTime": 1510099200000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-11-03&returndate=2017-11-08&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["VX",
+                                                "SY"],
+                                                "Fare": 275.01
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["DL"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1509753600000,
+                                "ReturnDateTime": 1510185600000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-11-04&returndate=2017-11-09&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY"],
+                                                "Fare": 263.62
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 321.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1509840000000,
+                                "ReturnDateTime": 1510272000000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-11-05&returndate=2017-11-10&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY"],
+                                                "Fare": 263.62
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1509926400000,
+                                "ReturnDateTime": 1510358400000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-11-06&returndate=2017-11-11&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY"],
+                                                "Fare": 263.62
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1510012800000,
+                                "ReturnDateTime": 1510444800000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-11-07&returndate=2017-11-12&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY"],
+                                                "Fare": 263.62
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1510099200000,
+                                "ReturnDateTime": 1510531200000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-11-08&returndate=2017-11-13&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY"],
+                                                "Fare": 263.62
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1510185600000,
+                                "ReturnDateTime": 1510617600000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-11-09&returndate=2017-11-14&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY"],
+                                                "Fare": 263.62
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["DL"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1510272000000,
+                                "ReturnDateTime": 1510704000000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-11-10&returndate=2017-11-15&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1510358400000,
+                                "ReturnDateTime": 1510790400000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-11-11&returndate=2017-11-16&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY"],
+                                                "Fare": 263.62
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["VX"],
+                                                "Fare": 321.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1510444800000,
+                                "ReturnDateTime": 1510876800000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-11-12&returndate=2017-11-17&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY"],
+                                                "Fare": 263.62
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["VX"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1510531200000,
+                                "ReturnDateTime": 1510963200000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-11-13&returndate=2017-11-18&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY"],
+                                                "Fare": 263.62
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["DL"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1510617600000,
+                                "ReturnDateTime": 1511049600000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-11-14&returndate=2017-11-19&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY"],
+                                                "Fare": 263.62
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1510704000000,
+                                "ReturnDateTime": 1511136000000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-11-15&returndate=2017-11-20&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY",
+                                                "VX"],
+                                                "Fare": 275.01
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["VX"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1510790400000,
+                                "ReturnDateTime": 1511222400000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-11-16&returndate=2017-11-21&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY",
+                                                "VX"],
+                                                "Fare": 275.01
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["VX"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1510876800000,
+                                "ReturnDateTime": 1511308800000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-11-17&returndate=2017-11-22&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["VX",
+                                                "SY"],
+                                                "Fare": 275.01
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["VX"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1510963200000,
+                                "ReturnDateTime": 1511395200000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-11-18&returndate=2017-11-23&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY"],
+                                                "Fare": 263.62
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["VX"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1511049600000,
+                                "ReturnDateTime": 1511481600000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-11-19&returndate=2017-11-24&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY",
+                                                "VX"],
+                                                "Fare": 275.01
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["VX"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1511136000000,
+                                "ReturnDateTime": 1511568000000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-11-20&returndate=2017-11-25&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["VX"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["VX"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1511222400000,
+                                "ReturnDateTime": 1511654400000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-11-21&returndate=2017-11-26&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["VX"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["VX"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1511308800000,
+                                "ReturnDateTime": 1511740800000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-11-22&returndate=2017-11-27&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY"],
+                                                "Fare": 263.62
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["VX"],
+                                                "Fare": 321.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1511395200000,
+                                "ReturnDateTime": 1511827200000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-11-23&returndate=2017-11-28&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY"],
+                                                "Fare": 263.62
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["DL"],
+                                                "Fare": 331.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1511481600000,
+                                "ReturnDateTime": 1511913600000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-11-24&returndate=2017-11-29&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["VX",
+                                                "SY"],
+                                                "Fare": 275.01
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["VX"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1511568000000,
+                                "ReturnDateTime": 1512000000000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-11-25&returndate=2017-11-30&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["VX",
+                                                "SY"],
+                                                "Fare": 275.01
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["VX"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1511654400000,
+                                "ReturnDateTime": 1512086400000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-11-26&returndate=2017-12-01&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["VX",
+                                                "SY"],
+                                                "Fare": 275.01
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1511740800000,
+                                "ReturnDateTime": 1512172800000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-11-27&returndate=2017-12-02&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["VX",
+                                                "SY"],
+                                                "Fare": 275.01
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["VX"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1511827200000,
+                                "ReturnDateTime": 1512259200000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-11-28&returndate=2017-12-03&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY"],
+                                                "Fare": 263.62
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["DL"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1511913600000,
+                                "ReturnDateTime": 1512345600000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-11-29&returndate=2017-12-04&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY"],
+                                                "Fare": 263.62
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1512000000000,
+                                "ReturnDateTime": 1512432000000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-11-30&returndate=2017-12-05&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY"],
+                                                "Fare": 263.62
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1512086400000,
+                                "ReturnDateTime": 1512518400000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-12-01&returndate=2017-12-06&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["VX",
+                                                "SY"],
+                                                "Fare": 275.01
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["DL"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1512172800000,
+                                "ReturnDateTime": 1512604800000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-12-02&returndate=2017-12-07&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY"],
+                                                "Fare": 263.62
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["DL"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1512259200000,
+                                "ReturnDateTime": 1512691200000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-12-03&returndate=2017-12-08&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY"],
+                                                "Fare": 263.62
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1512345600000,
+                                "ReturnDateTime": 1512777600000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-12-04&returndate=2017-12-09&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY",
+                                                "VX"],
+                                                "Fare": 280.71
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1512432000000,
+                                "ReturnDateTime": 1512864000000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-12-05&returndate=2017-12-10&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY"],
+                                                "Fare": 263.62
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["VX"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1512518400000,
+                                "ReturnDateTime": 1512950400000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-12-06&returndate=2017-12-11&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY",
+                                                "VX"],
+                                                "Fare": 280.71
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1512604800000,
+                                "ReturnDateTime": 1513036800000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-12-07&returndate=2017-12-12&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY"],
+                                                "Fare": 263.62
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["DL"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1512691200000,
+                                "ReturnDateTime": 1513123200000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-12-08&returndate=2017-12-13&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["VX",
+                                                "SY"],
+                                                "Fare": 275.01
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AS"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1512777600000,
+                                "ReturnDateTime": 1513209600000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-12-09&returndate=2017-12-14&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AS"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AS"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1512864000000,
+                                "ReturnDateTime": 1513296000000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-12-10&returndate=2017-12-15&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["VX",
+                                                "SY"],
+                                                "Fare": 275.01
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["VX"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1512950400000,
+                                "ReturnDateTime": 1513382400000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-12-11&returndate=2017-12-16&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY"],
+                                                "Fare": 263.62
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["VX"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1513036800000,
+                                "ReturnDateTime": 1513468800000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-12-12&returndate=2017-12-17&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY"],
+                                                "Fare": 263.62
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AS"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1513123200000,
+                                "ReturnDateTime": 1513555200000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-12-13&returndate=2017-12-18&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY"],
+                                                "Fare": 263.62
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AS"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1513209600000,
+                                "ReturnDateTime": 1513641600000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-12-14&returndate=2017-12-19&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY"],
+                                                "Fare": 263.62
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AS"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1513296000000,
+                                "ReturnDateTime": 1513728000000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-12-15&returndate=2017-12-20&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AS"],
+                                                "Fare": 367.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AS"],
+                                                "Fare": 367.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1513382400000,
+                                "ReturnDateTime": 1513814400000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-12-16&returndate=2017-12-21&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 343.01
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AS"],
+                                                "Fare": 367.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1513468800000,
+                                "ReturnDateTime": 1513900800000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-12-17&returndate=2017-12-22&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 343.01
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AS"],
+                                                "Fare": 367.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1513555200000,
+                                "ReturnDateTime": 1513987200000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-12-18&returndate=2017-12-23&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY",
+                                                "VX"],
+                                                "Fare": 275.01
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AS"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1513641600000,
+                                "ReturnDateTime": 1514073600000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-12-19&returndate=2017-12-24&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY",
+                                                "VX"],
+                                                "Fare": 275.01
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["VX"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1513728000000,
+                                "ReturnDateTime": 1514160000000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-12-20&returndate=2017-12-25&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 399.62
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 686.14
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1513814400000,
+                                "ReturnDateTime": 1514246400000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-12-21&returndate=2017-12-26&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 399.62
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 585.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1513900800000,
+                                "ReturnDateTime": 1514332800000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-12-22&returndate=2017-12-27&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 399.62
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["VX"],
+                                                "Fare": 448.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1513987200000,
+                                "ReturnDateTime": 1514419200000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-12-23&returndate=2017-12-28&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AS"],
+                                                "Fare": 300.01
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 436.39
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1514073600000,
+                                "ReturnDateTime": 1514505600000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-12-24&returndate=2017-12-29&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["VX"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["VX"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1514160000000,
+                                "ReturnDateTime": 1514592000000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-12-25&returndate=2017-12-30&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AS",
+                                                "VX"],
+                                                "Fare": 376
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 471.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1514246400000,
+                                "ReturnDateTime": 1514678400000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-12-26&returndate=2017-12-31&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AS",
+                                                "VX"],
+                                                "Fare": 376
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 596.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1514332800000,
+                                "ReturnDateTime": 1514764800000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-12-27&returndate=2018-01-01&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 399.62
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 596.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1514419200000,
+                                "ReturnDateTime": 1514851200000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-12-28&returndate=2018-01-02&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["VX",
+                                                "SY"],
+                                                "Fare": 275.01
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 521.14
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1514505600000,
+                                "ReturnDateTime": 1514937600000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-12-29&returndate=2018-01-03&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["VX",
+                                                "SY"],
+                                                "Fare": 275.01
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 471.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1514592000000,
+                                "ReturnDateTime": 1515024000000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-12-30&returndate=2018-01-04&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["VX",
+                                                "SY"],
+                                                "Fare": 275.01
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 534.3
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1514678400000,
+                                "ReturnDateTime": 1515110400000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2017-12-31&returndate=2018-01-05&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["VX",
+                                                "SY"],
+                                                "Fare": 275.01
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 570.75
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1514764800000,
+                                "ReturnDateTime": 1515196800000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-01-01&returndate=2018-01-06&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 399.62
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["DL"],
+                                                "Fare": 569.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1514851200000,
+                                "ReturnDateTime": 1515283200000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-01-02&returndate=2018-01-07&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY"],
+                                                "Fare": 263.62
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["DL"],
+                                                "Fare": 457.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1514937600000,
+                                "ReturnDateTime": 1515369600000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-01-03&returndate=2018-01-08&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY"],
+                                                "Fare": 263.62
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 301.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1515024000000,
+                                "ReturnDateTime": 1515456000000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-01-04&returndate=2018-01-09&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY"],
+                                                "Fare": 263.62
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 281.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1515110400000,
+                                "ReturnDateTime": 1515542400000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-01-05&returndate=2018-01-10&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY",
+                                                "VX"],
+                                                "Fare": 278.61
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 321.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1515196800000,
+                                "ReturnDateTime": 1515628800000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-01-06&returndate=2018-01-11&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY"],
+                                                "Fare": 263.62
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 321.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1515283200000,
+                                "ReturnDateTime": 1515715200000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-01-07&returndate=2018-01-12&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 281.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 281.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1515369600000,
+                                "ReturnDateTime": 1515801600000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-01-08&returndate=2018-01-13&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1515456000000,
+                                "ReturnDateTime": 1515888000000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-01-09&returndate=2018-01-14&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 257.6
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 281.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1515542400000,
+                                "ReturnDateTime": 1515974400000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-01-10&returndate=2018-01-15&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 257.6
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 281.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1515628800000,
+                                "ReturnDateTime": 1516060800000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-01-11&returndate=2018-01-16&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 257.6
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 281.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1515715200000,
+                                "ReturnDateTime": 1516147200000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-01-12&returndate=2018-01-17&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 281.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 281.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1515801600000,
+                                "ReturnDateTime": 1516233600000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-01-13&returndate=2018-01-18&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["SY",
+                                                "VX"],
+                                                "Fare": 278.61
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 321.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1515888000000,
+                                "ReturnDateTime": 1516320000000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-01-14&returndate=2018-01-19&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 281.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 281.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1515974400000,
+                                "ReturnDateTime": 1516406400000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-01-15&returndate=2018-01-20&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 257.6
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 281.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1516060800000,
+                                "ReturnDateTime": 1516492800000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-01-16&returndate=2018-01-21&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 257.6
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 281.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1516147200000,
+                                "ReturnDateTime": 1516579200000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-01-17&returndate=2018-01-22&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 257.6
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 281.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1516233600000,
+                                "ReturnDateTime": 1516665600000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-01-18&returndate=2018-01-23&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 257.6
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 281.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1516320000000,
+                                "ReturnDateTime": 1516752000000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-01-19&returndate=2018-01-24&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 257.6
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 281.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1516406400000,
+                                "ReturnDateTime": 1516838400000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-01-20&returndate=2018-01-25&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AS"],
+                                                "Fare": 290
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 291.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1516492800000,
+                                "ReturnDateTime": 1516924800000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-01-21&returndate=2018-01-26&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 257.6
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 281.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1516579200000,
+                                "ReturnDateTime": 1517011200000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-01-22&returndate=2018-01-27&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 257.6
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 281.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1516665600000,
+                                "ReturnDateTime": 1517097600000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-01-23&returndate=2018-01-28&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 257.6
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 281.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1516752000000,
+                                "ReturnDateTime": 1517184000000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-01-24&returndate=2018-01-29&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 257.6
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 281.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1516838400000,
+                                "ReturnDateTime": 1517270400000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-01-25&returndate=2018-01-30&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 281.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 281.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1516924800000,
+                                "ReturnDateTime": 1517356800000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-01-26&returndate=2018-01-31&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 257.6
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 281.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1517011200000,
+                                "ReturnDateTime": 1517443200000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-01-27&returndate=2018-02-01&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 257.6
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 291.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1517097600000,
+                                "ReturnDateTime": 1517529600000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-01-28&returndate=2018-02-02&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 281.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 281.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1517184000000,
+                                "ReturnDateTime": 1517616000000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-01-29&returndate=2018-02-03&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 281.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 281.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1517270400000,
+                                "ReturnDateTime": 1517702400000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-01-30&returndate=2018-02-04&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 257.6
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 281.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1517356800000,
+                                "ReturnDateTime": 1517788800000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-01-31&returndate=2018-02-05&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 257.6
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 281.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1517443200000,
+                                "ReturnDateTime": 1517875200000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-02-01&returndate=2018-02-06&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 281.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 281.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1517529600000,
+                                "ReturnDateTime": 1517961600000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-02-02&returndate=2018-02-07&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 257.6
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 281.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1517616000000,
+                                "ReturnDateTime": 1518048000000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-02-03&returndate=2018-02-08&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["DL"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["DL"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1517702400000,
+                                "ReturnDateTime": 1518134400000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-02-04&returndate=2018-02-09&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 281.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 281.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1517788800000,
+                                "ReturnDateTime": 1518220800000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-02-05&returndate=2018-02-10&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 281.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 281.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1517875200000,
+                                "ReturnDateTime": 1518307200000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-02-06&returndate=2018-02-11&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 257.6
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 281.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1517961600000,
+                                "ReturnDateTime": 1518393600000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-02-07&returndate=2018-02-12&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 257.6
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 281.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1518048000000,
+                                "ReturnDateTime": 1518480000000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-02-08&returndate=2018-02-13&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["DL"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["DL"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1518134400000,
+                                "ReturnDateTime": 1518566400000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-02-09&returndate=2018-02-14&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AS"],
+                                                "Fare": 292
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["DL"],
+                                                "Fare": 357.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1518220800000,
+                                "ReturnDateTime": 1518652800000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-02-10&returndate=2018-02-15&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AS"],
+                                                "Fare": 332.6
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["DL"],
+                                                "Fare": 498.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1518307200000,
+                                "ReturnDateTime": 1518739200000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-02-11&returndate=2018-02-16&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 298.6
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 475.3
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1518393600000,
+                                "ReturnDateTime": 1518825600000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-02-12&returndate=2018-02-17&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 290
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 465.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1518480000000,
+                                "ReturnDateTime": 1518912000000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-02-13&returndate=2018-02-18&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 298.6
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["VX"],
+                                                "Fare": 392.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1518566400000,
+                                "ReturnDateTime": 1518998400000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-02-14&returndate=2018-02-19&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["DL"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["DL"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1518652800000,
+                                "ReturnDateTime": 1519084800000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-02-15&returndate=2018-02-20&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 281.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 281.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1518739200000,
+                                "ReturnDateTime": 1519171200000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-02-16&returndate=2018-02-21&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 281.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 281.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1518825600000,
+                                "ReturnDateTime": 1519257600000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-02-17&returndate=2018-02-22&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AS"],
+                                                "Fare": 297
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["DL"],
+                                                "Fare": 331.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1518912000000,
+                                "ReturnDateTime": 1519344000000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-02-18&returndate=2018-02-23&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 281.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 281.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1518998400000,
+                                "ReturnDateTime": 1519430400000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-02-19&returndate=2018-02-24&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 281.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 281.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1519084800000,
+                                "ReturnDateTime": 1519516800000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-02-20&returndate=2018-02-25&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 281.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 281.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1519171200000,
+                                "ReturnDateTime": 1519603200000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-02-21&returndate=2018-02-26&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["DL"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["DL"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1519257600000,
+                                "ReturnDateTime": 1519689600000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-02-22&returndate=2018-02-27&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["DL"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["DL"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1519344000000,
+                                "ReturnDateTime": 1519776000000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-02-23&returndate=2018-02-28&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AS"],
+                                                "Fare": 307.6
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["DL"],
+                                                "Fare": 402.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1519430400000,
+                                "ReturnDateTime": 1519862400000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-02-24&returndate=2018-03-01&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AS"],
+                                                "Fare": 297
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AS"],
+                                                "Fare": 392.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1519516800000,
+                                "ReturnDateTime": 1519948800000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-02-25&returndate=2018-03-02&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AS"],
+                                                "Fare": 281.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AS"],
+                                                "Fare": 281.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1519603200000,
+                                "ReturnDateTime": 1520035200000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-02-26&returndate=2018-03-03&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 281.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 281.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1519689600000,
+                                "ReturnDateTime": 1520121600000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-02-27&returndate=2018-03-04&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 281.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 281.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1519776000000,
+                                "ReturnDateTime": 1520208000000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-02-28&returndate=2018-03-05&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 281.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 281.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1519862400000,
+                                "ReturnDateTime": 1520294400000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-03-01&returndate=2018-03-06&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 281.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 281.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1519948800000,
+                                "ReturnDateTime": 1520380800000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-03-02&returndate=2018-03-07&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AS"],
+                                                "Fare": 281.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AS"],
+                                                "Fare": 281.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1520035200000,
+                                "ReturnDateTime": 1520467200000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-03-03&returndate=2018-03-08&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1520121600000,
+                                "ReturnDateTime": 1520553600000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-03-04&returndate=2018-03-09&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1520208000000,
+                                "ReturnDateTime": 1520640000000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-03-05&returndate=2018-03-10&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 281.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 281.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1520294400000,
+                                "ReturnDateTime": 1520726400000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-03-06&returndate=2018-03-11&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 281.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 281.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1520380800000,
+                                "ReturnDateTime": 1520812800000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-03-07&returndate=2018-03-12&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["DL"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["DL"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1520467200000,
+                                "ReturnDateTime": 1520899200000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-03-08&returndate=2018-03-13&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1520553600000,
+                                "ReturnDateTime": 1520985600000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-03-09&returndate=2018-03-14&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1520640000000,
+                                "ReturnDateTime": 1521072000000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-03-10&returndate=2018-03-15&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1520726400000,
+                                "ReturnDateTime": 1521158400000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-03-11&returndate=2018-03-16&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1520812800000,
+                                "ReturnDateTime": 1521244800000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-03-12&returndate=2018-03-17&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1520899200000,
+                                "ReturnDateTime": 1521331200000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-03-13&returndate=2018-03-18&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1520985600000,
+                                "ReturnDateTime": 1521417600000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-03-14&returndate=2018-03-19&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1521072000000,
+                                "ReturnDateTime": 1521504000000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-03-15&returndate=2018-03-20&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1521158400000,
+                                "ReturnDateTime": 1521590400000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-03-16&returndate=2018-03-21&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1521244800000,
+                                "ReturnDateTime": 1521676800000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-03-17&returndate=2018-03-22&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1521331200000,
+                                "ReturnDateTime": 1521763200000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-03-18&returndate=2018-03-23&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1521417600000,
+                                "ReturnDateTime": 1521849600000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-03-19&returndate=2018-03-24&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1521504000000,
+                                "ReturnDateTime": 1521936000000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-03-20&returndate=2018-03-25&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1521590400000,
+                                "ReturnDateTime": 1522022400000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-03-21&returndate=2018-03-26&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1521676800000,
+                                "ReturnDateTime": 1522108800000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-03-22&returndate=2018-03-27&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1521763200000,
+                                "ReturnDateTime": 1522195200000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-03-23&returndate=2018-03-28&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1521849600000,
+                                "ReturnDateTime": 1522281600000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-03-24&returndate=2018-03-29&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1521936000000,
+                                "ReturnDateTime": 1522368000000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-03-25&returndate=2018-03-30&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1522022400000,
+                                "ReturnDateTime": 1522454400000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-03-26&returndate=2018-03-31&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1522108800000,
+                                "ReturnDateTime": 1522540800000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-03-27&returndate=2018-04-01&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1522195200000,
+                                "ReturnDateTime": 1522627200000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-03-28&returndate=2018-04-02&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1522281600000,
+                                "ReturnDateTime": 1522713600000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-03-29&returndate=2018-04-03&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1522368000000,
+                                "ReturnDateTime": 1522800000000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-03-30&returndate=2018-04-04&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1522454400000,
+                                "ReturnDateTime": 1522886400000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-03-31&returndate=2018-04-05&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1522540800000,
+                                "ReturnDateTime": 1522972800000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-04-01&returndate=2018-04-06&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1522627200000,
+                                "ReturnDateTime": 1523059200000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-04-02&returndate=2018-04-07&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1522713600000,
+                                "ReturnDateTime": 1523145600000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-04-03&returndate=2018-04-08&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1522800000000,
+                                "ReturnDateTime": 1523232000000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-04-04&returndate=2018-04-09&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1522886400000,
+                                "ReturnDateTime": 1523318400000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-04-05&returndate=2018-04-10&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1522972800000,
+                                "ReturnDateTime": 1523404800000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-04-06&returndate=2018-04-11&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1523059200000,
+                                "ReturnDateTime": 1523491200000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-04-07&returndate=2018-04-12&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1523145600000,
+                                "ReturnDateTime": 1523577600000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-04-08&returndate=2018-04-13&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1523232000000,
+                                "ReturnDateTime": 1523664000000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-04-09&returndate=2018-04-14&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1523318400000,
+                                "ReturnDateTime": 1523750400000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-04-10&returndate=2018-04-15&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1523404800000,
+                                "ReturnDateTime": 1523836800000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-04-11&returndate=2018-04-16&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1523491200000,
+                                "ReturnDateTime": 1523923200000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-04-12&returndate=2018-04-17&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["AA"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1523577600000,
+                                "ReturnDateTime": 1524009600000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-04-13&returndate=2018-04-18&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1523664000000,
+                                "ReturnDateTime": 1524096000000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-04-14&returndate=2018-04-19&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1523750400000,
+                                "ReturnDateTime": 1524182400000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-04-15&returndate=2018-04-20&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1523836800000,
+                                "ReturnDateTime": 1524268800000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-04-16&returndate=2018-04-21&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1523923200000,
+                                "ReturnDateTime": 1524355200000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-04-17&returndate=2018-04-22&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1524009600000,
+                                "ReturnDateTime": 1524441600000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-04-18&returndate=2018-04-23&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1524096000000,
+                                "ReturnDateTime": 1524528000000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-04-19&returndate=2018-04-24&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1524182400000,
+                                "ReturnDateTime": 1524614400000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-04-20&returndate=2018-04-25&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1524268800000,
+                                "ReturnDateTime": 1524700800000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-04-21&returndate=2018-04-26&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1524355200000,
+                                "ReturnDateTime": 1524787200000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-04-22&returndate=2018-04-27&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1524441600000,
+                                "ReturnDateTime": 1524873600000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-04-23&returndate=2018-04-28&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1524528000000,
+                                "ReturnDateTime": 1524960000000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-04-24&returndate=2018-04-29&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["B6"],
+                                                "Fare": 286.4
+                                },
+                                "CurrencyCode": "USD",
+                                "DepartureDateTime": 1524614400000,
+                                "ReturnDateTime": 1525046400000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-04-25&returndate=2018-04-30&pointofsalecountry=US"
+                                }]
+                },
+                {
+                                "LowestFare": {
+                                                "AirlineCodes": ["N/A"],
+                                                "Fare": null
+                                },
+                                "LowestNonStopFare": {
+                                                "AirlineCodes": ["N/A"],
+                                                "Fare": null
+                                },
+                                "CurrencyCode": "N/A",
+                                "DepartureDateTime": 1524700800000,
+                                "ReturnDateTime": 1525132800000,
+                                "Links": [{
+                                                "rel": "shop",
+                                                "href": "https://api.test.sabre.com/v1/shop/flights?origin=LAX&destination=JFK&departuredate=2018-04-26&returndate=2018-05-01&pointofsalecountry=US"
+                                }]
+                }],
+                "Links": [{
+                                "rel": "self",
+                                "href": "https://api.test.sabre.com/v2/shop/flights/fares?origin=LAX&pointofsalecountry=US&destination=JFK&lengthofstay=5"
+                },
+                {
+                                "rel": "linkTemplate",
+                                "href": "https://api.test.sabre.com/v2/shop/flights/fares?origin=<origin>&destination=<destination>&lengthofstay=<lengthofstay>&departuredate=<departuredate>&minfare=<minfare>&maxfare=<maxfare>&pointofsalecountry=<pointofsalecountry>"
+                }]
+}

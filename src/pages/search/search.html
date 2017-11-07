@@ -1,0 +1,121 @@
+  <ion-header>
+
+  <ion-navbar>
+  <ion-title>{{ 'SEARCH_TITLE' | translate }}</ion-title>
+</ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+<ion-grid  *ngIf='searchWidget'>
+<ion-searchbar (ionInput)="getSourceAirportList($event)" placeholder="{{ 'SOURCE' | translate }}" [(ngModel)]="source"></ion-searchbar>
+<ion-list *ngIf='sourceAirportList.length > 0'>
+	<!-- <ion-item  *ngIf='sourceAirportList.length === 0'>No Results</ion-item > -->
+<button ion-item (click)="selectSource(item)" *ngFor="let item of sourceAirportList">
+<h2>{{item.name}}</h2>
+<p>{{item.code}}</p>
+</button>
+</ion-list>
+<ion-searchbar (ionInput)="getDestinationAirportList($event)" placeholder="{{ 'DESTINATION' | translate }}" [(ngModel)]="destination"></ion-searchbar>
+<ion-list >
+	<!-- <ion-item  *ngIf='destinationAirportList.length === 0'>No Results</ion-item > -->
+<button ion-item (click)="selectDestination(item)" *ngFor="let item of destinationAirportList">
+<h2>{{item.name}}</h2>
+<p>{{item.code}}</p>
+</button>
+</ion-list>
+
+<ion-row>
+<ion-col col-4>
+<ion-label>Date of journey</ion-label>
+</ion-col>
+<ion-col col-8>
+<ion-row>
+<ion-datetime displayFormat="DD MMM YYYY" pickerFormat="DD MMM YYYY" [(ngModel)]="travelData"> </ion-datetime><ion-icon name="calendar" style="zoom:2.0;"></ion-icon>
+</ion-row>
+
+</ion-col>
+
+</ion-row>
+<ion-row >
+	<ion-col style="text-align: center;">
+		<button  ion-button (click)="searchFlight()" [disabled]="!destination && !source"> Search </button>
+	</ion-col>
+	
+</ion-row>
+</ion-grid>
+<ion-grid *ngIf='!searchWidget'>
+<ion-row ><ion-col (click)="searchWidget=!searchWidget" style="text-align: center;"><ion-icon style="zoom: 2" name="menu"></ion-icon></ion-col></ion-row>
+<ion-card>
+<ion-card-content>
+<ion-row>
+<ion-col col-4 style="text-align: left;">
+<ion-label style="font-size: x-large;">{{sourceCode}}</ion-label>
+</ion-col>
+<ion-col col-4 style="text-align: center;padding-top: 5%;">
+<ion-icon style="zoom: 3;transform: rotate(90deg);" color="danger" name="plane" role="img" class="icon item-icon" ></ion-icon>
+</ion-col>
+<ion-col col-4 style="text-align: right;">
+<ion-label style="font-size: x-large;">{{destinationCode}}</ion-label>
+</ion-col>
+</ion-row>
+<ion-row> 
+<ion-col col-12 style="text-align: center;">
+<ion-label style="font-size: xx-large;">{{travelData | date}}</ion-label>
+</ion-col>
+</ion-row>
+</ion-card-content>
+</ion-card>
+ 
+<ion-list>
+
+<ion-row style="background-color: #e0e0e0; margin-top: 1px;" *ngFor="let flight of flightDetails">
+<ion-col>
+<ion-row>
+	<ion-col col-4>
+<ion-row>{{source}}</ion-row>
+<ion-row>
+<ion-col style="font-size: x-large;">{{sourceCode}} </ion-col>
+<ion-col>
+<ion-icon style="zoom: 2;transform: rotate(90deg);color: #b9c5dd;"  name="plane" role="img" class="icon item-icon" ></ion-icon>
+</ion-col>
+</ion-row>
+<ion-row>{{flight.DepartureDateTime | date:'shortTime' }}</ion-row>
+<ion-row>{{flight.DepartureDateTime  | date}}</ion-row>
+</ion-col>
+
+<ion-col col-4>
+<ion-row><ion-col></ion-col></ion-row>
+<ion-row>
+0 Stops
+</ion-row>
+<ion-row><ion-col></ion-col></ion-row>
+<ion-row     style="border-bottom: 2px;
+    border-bottom-style: solid;color: #b9c5dd"
+   ></ion-row>
+    <ion-row><ion-col></ion-col></ion-row>
+<ion-row> 5h 56m</ion-row>
+
+</ion-col>
+<ion-col col-4>
+<ion-row>{{destination}}</ion-row>
+<ion-row ><ion-col style="font-size: x-large;">{{destinationCode}}</ion-col> </ion-row>
+<ion-row>{{flight.ReturnDateTime | date:'shortTime' }}</ion-row>
+<ion-row>{{flight.ReturnDateTime | date}}</ion-row>
+</ion-col>
+</ion-row>	
+<ion-row><ion-col col-6 style="text-align: right;
+    font-size: x-large;
+    font-weight: bolder;"> <span>&#36;</span> {{flight.LowestFare.Fare}}</ion-col><ion-col col-6><ion-icon (click)="openItem(flight)" style="zoom: 2;color:#5a95fe;" name="arrow-forward"></ion-icon></ion-col> </ion-row>
+</ion-col>
+
+
+</ion-row>
+<!-- ============================================== -->
+</ion-list>
+
+
+</ion-grid>
+
+</ion-content>

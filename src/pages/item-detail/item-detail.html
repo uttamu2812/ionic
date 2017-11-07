@@ -1,0 +1,102 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{source}} > {{destination}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+
+<ion-card>
+<ion-card-content>
+
+<ion-row>
+	<ion-col>
+		<ion-avatar style="width:80%">
+          <img [src]="logoimg" />
+        </ion-avatar>
+	</ion-col>
+</ion-row>
+
+<ion-row>
+	<ion-col col-4>
+<ion-row>{{source}}</ion-row>
+<ion-row>
+<ion-col style="font-size: x-large;">{{sourceCode}} </ion-col>
+<ion-col>
+<ion-icon style="zoom: 2;transform: rotate(90deg);color: #b9c5dd;"  name="plane" role="img" class="icon item-icon" ></ion-icon>
+</ion-col>
+</ion-row>
+<ion-row>{{item.DepartureDateTime | date:'shortTime' }}</ion-row>
+<ion-row>{{item.DepartureDateTime  | date}}</ion-row>
+</ion-col>
+
+<ion-col col-4>
+<ion-row><ion-col></ion-col></ion-row>
+<ion-row>
+0 Stops
+</ion-row>
+<ion-row><ion-col></ion-col></ion-row>
+<ion-row     style="border-bottom: 2px;
+    border-bottom-style: solid;color: #b9c5dd"
+   ></ion-row>
+    <ion-row><ion-col></ion-col></ion-row>
+<ion-row> 5h 56m</ion-row>
+
+</ion-col>
+<ion-col col-4>
+<ion-row>{{destination}}</ion-row>
+<ion-row ><ion-col style="font-size: x-large;">{{destinationCode}}</ion-col> </ion-row>
+<ion-row>{{item.ReturnDateTime | date:'shortTime' }}</ion-row>
+<ion-row>{{item.ReturnDateTime | date}}</ion-row>
+</ion-col>
+</ion-row>	
+<ion-row><ion-col col-6 style="text-align: right;
+    font-size: x-large;
+    font-weight: bolder;"> <span>&#36;</span> {{item.LowestFare.Fare}}</ion-col><ion-col col-6><button  ion-button > Buy now </button></ion-col> </ion-row>
+
+</ion-card-content>
+
+</ion-card>
+
+<ion-list-header>
+  Recomended for you
+</ion-list-header>
+<ion-list>
+	<ion-item-sliding>
+		<button ion-item (click)="openItem(item)">
+        <ion-avatar item-start>
+          <img src="assets/img/QA.jpg" />
+        </ion-avatar>
+        <h2>Q4 Hotel</h2>
+        <p>{{item.about}}</p>
+        
+      </button>
+	</ion-item-sliding>
+	<ion-item-sliding>
+		
+		<button ion-item (click)="openItem(item)">
+        <ion-avatar item-start>
+          <img src="assets/img/Brooklyn.jpg" />
+        </ion-avatar>
+        <h2>EVEN Hotels Brooklyn</h2><span>$ 456.4</span>
+        <p>{{item.about}}</p>
+        
+      </button>
+	</ion-item-sliding>
+	<ion-item-sliding>
+		<button ion-item (click)="openItem(item)">
+        <ion-avatar item-start>
+          <img src="assets/img/QA.jpg" />
+        </ion-avatar>
+        <h2>Q4 Hotel</h2>
+        <p>{{item.about}}</p>
+        
+      </button>
+	</ion-item-sliding>
+
+</ion-list>
+
+</ion-content>
