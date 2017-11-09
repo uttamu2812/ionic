@@ -1,4 +1,6 @@
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+
+import { HttpModule } from '@angular/http'; 
 import { ErrorHandler, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { Camera } from '@ionic-native/camera';
@@ -10,11 +12,11 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { Geolocation } from '@ionic-native/geolocation';
 import { Items } from '../providers/providers';
+import { Flights } from '../providers/providers';
 import { Settings } from '../providers/providers';
 import { User } from '../providers/providers';
 import { Api } from '../providers/providers';
 import { MyApp } from './app.component';
-
 // The translate loader needs to know where to load i18n files
 // in Ionic's static asset pipeline.
 export function createTranslateLoader(http: HttpClient) {
@@ -38,10 +40,11 @@ export function provideSettings(storage: Storage) {
 
 @NgModule({
   declarations: [
-    MyApp
+     MyApp
   ],
-  imports: [
+    imports: [
     BrowserModule,
+    HttpModule,
     HttpClientModule,
     TranslateModule.forRoot({
       loader: {
@@ -61,6 +64,7 @@ export function provideSettings(storage: Storage) {
     Api,
     Geolocation,
     Items,
+    Flights,
     User,
     Camera,
     SplashScreen,

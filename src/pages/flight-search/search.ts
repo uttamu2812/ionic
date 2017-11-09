@@ -1,9 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams ,ToastController} from 'ionic-angular';
-
-import { Item } from '../../models/item';
 import { Flight } from '../../models/flight';
-import { Items } from '../../providers/providers';
+import { Flights } from '../../providers/providers';
 
 @IonicPage()
 @Component({
@@ -18,17 +16,16 @@ export class SearchPage {
   destination:any;
   sourceCode:any;
   destinationCode:any;
-  sourceObj:Item;
-  destinationObj:Item;
-  travelData: any;
+  sourceObj:Flight;
+  destinationObj:Flight;
+  travelDate: any;
   datesGiven:boolean;
   searchWidget:boolean;
   logoimg:any;
-  constructor(public navCtrl: NavController, public toastCtrl: ToastController,public navParams: NavParams, public items: Items) { 
+  constructor(public navCtrl: NavController, public toastCtrl: ToastController,public navParams: NavParams, public flights: Flights) { 
     this.datesGiven=false;
     this.searchWidget=true;
-    this.travelData=this.getCurrentDate();
-    console.log(this.travelData);
+    this.travelDate=this.getCurrentDate();
     
   }
 
@@ -48,21 +45,11 @@ export class SearchPage {
       return;
     }
 
-     this.items.getAirports().subscribe((resp) => {
-  this.sourceAirportList=resp["airports"].filter((item) => {
-      
-        let field = item["name"];
-        if (field.toLowerCase().indexOf(val.toLowerCase()) >= 0) {
-          return item;
-        } else if (field == val) {
-          return item;
-        }
-      
-      return null;
-    });
+     this.flights.getAirports(val).subscribe((resp) => {
+       console.log(resp);
+      this.sourceAirportList=resp;
+
     }, (err) => {
-      //this.navCtrl.push(MainPage);
-      // Unable to log in
       let toast = this.toastCtrl.create({
         message: err,
         duration: 3000,
@@ -83,21 +70,10 @@ export class SearchPage {
       this.destinationAirportList = [];
       return;
     }
-     this.items.getAirports().subscribe((resp) => {
-        this.destinationAirportList=resp["airports"].filter((item) => {
-      
-        let field = item["name"];
-        if (field.toLowerCase().indexOf(val.toLowerCase()) >= 0) {
-          return item;
-        } else if (field == val) {
-          return item;
-        }
-      
-      return null;
-    });
+     this.flights.getAirports(val).subscribe((resp) => {
+        console.log(resp);
+        this.destinationAirportList=resp;
     }, (err) => {
-      //this.navCtrl.push(MainPage);
-      // Unable to log in
       let toast = this.toastCtrl.create({
         message: err,
         duration: 3000,
@@ -113,22 +89,23 @@ export class SearchPage {
   }
 /*selectSource*/
 
-selectSource(item: Item){
+selectSource(item: any){
   this.sourceObj=item;
-  this.source=item["name"];
+  this.source=item["airportName"];
   this.sourceAirportList = [];
 }
-selectDestination(item: Item){
+selectDestination(item: any){
   this.destinationObj=item;
-  this.destination=item["name"];
+  this.destination=item["airportName"];
   this.destinationAirportList = [];
 }
 
 searchFlight(){
-this.sourceCode=this.sourceObj["code"]
-this.destinationCode=this.destinationObj["code"];
+this.sourceCode=this.sourceObj["airportCode"]
+this.destinationCode=this.destinationObj["airportCode"];
 this.searchWidget=false;
-this.items.getFlightList().subscribe((resp) => {
+
+this.flights.getFlightList(this.sourceCode,this.destinationCode,this.travelDate).subscribe((resp) => {
   
    this.flightDetails=resp["FareInfo"];
       console.log(this.flightDetails);
@@ -155,7 +132,7 @@ this.items.getFlightList().subscribe((resp) => {
       destination:this.destination,
       sourceCode:this.sourceCode,
       destinationCode:this.destinationCode,
-      travelData: this.travelData
+      travelDate: this.travelDate
     });
   }
 

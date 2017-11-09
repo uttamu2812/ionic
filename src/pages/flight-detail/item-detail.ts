@@ -17,7 +17,7 @@ export class ItemDetailPage {
   travelData: any;
   logoimg:any;
   constructor(public navCtrl: NavController, navParams: NavParams, items: Items) {
-    this.item = navParams.get('item') || items.defaultItem;
+    this.item = navParams.get('item') ;
     this.destination=navParams.get('destination');
     this.source=navParams.get('source');
     this.sourceCode=navParams.get('sourceCode');

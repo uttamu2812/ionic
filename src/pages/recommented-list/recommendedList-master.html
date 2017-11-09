@@ -1,19 +1,57 @@
-<ion-header>
+<ion-header  style="background-color: #488aff;">
 
   <ion-navbar>
     <ion-title>{{ 'LIST_MASTER_TITLE' | translate }}</ion-title>
 
-
   </ion-navbar>
-
+<!-- <page-header></page-header> -->
 </ion-header>
 
 <ion-content>
-
- <ion-list-header>
-  Recomended for you
-</ion-list-header>
 <ion-list>
+ <ion-list-header>
+  New
+</ion-list-header>
+
+  <ion-item-sliding>
+    <button ion-item (click)="openItem(item)">
+        <ion-avatar item-start>
+          <img src="assets/img/QA.jpg" />
+        </ion-avatar>
+        <h2>Q4 Hotel</h2>
+        <p>safasfasf</p>
+              </button>
+  </ion-item-sliding>
+  <ion-item-sliding>
+    
+    <button ion-item (click)="openItem(item)">
+        <ion-avatar item-start>
+          <img src="assets/img/Brooklyn.jpg" />
+        </ion-avatar>
+        <h2>EVEN Hotels Brooklyn</h2><span>$ 456.4</span>
+        <p>safasfasf</p>
+        
+      </button>
+  </ion-item-sliding>
+  <ion-item-sliding>
+    <button ion-item (click)="openItem(item)">
+        <ion-avatar item-start>
+          <img src="assets/img/QA.jpg" />
+        </ion-avatar>
+        <h2>Q4 Hotel</h2>
+        <p>safasfasf</p>
+        
+      </button>
+  </ion-item-sliding>
+
+</ion-list>
+
+
+<ion-list>
+ <ion-list-header>
+  Earlier
+</ion-list-header>
+
   <ion-item-sliding>
     <button ion-item (click)="openItem(item)">
         <ion-avatar item-start>

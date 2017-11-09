@@ -13,16 +13,16 @@
 <ion-list *ngIf='sourceAirportList.length > 0'>
 	<!-- <ion-item  *ngIf='sourceAirportList.length === 0'>No Results</ion-item > -->
 <button ion-item (click)="selectSource(item)" *ngFor="let item of sourceAirportList">
-<h2>{{item.name}}</h2>
-<p>{{item.code}}</p>
+<h2>{{item.airportName}}</h2>
+<p>{{item.airportCode}}</p>
 </button>
 </ion-list>
 <ion-searchbar (ionInput)="getDestinationAirportList($event)" placeholder="{{ 'DESTINATION' | translate }}" [(ngModel)]="destination"></ion-searchbar>
 <ion-list >
 	<!-- <ion-item  *ngIf='destinationAirportList.length === 0'>No Results</ion-item > -->
 <button ion-item (click)="selectDestination(item)" *ngFor="let item of destinationAirportList">
-<h2>{{item.name}}</h2>
-<p>{{item.code}}</p>
+<h2>{{item.airportName}}</h2>
+<p>{{item.airportCode}}</p>
 </button>
 </ion-list>
 
@@ -32,7 +32,7 @@
 </ion-col>
 <ion-col col-8>
 <ion-row>
-<ion-datetime displayFormat="DD MMM YYYY" pickerFormat="DD MMM YYYY" [(ngModel)]="travelData"> </ion-datetime><ion-icon name="calendar" style="zoom:2.0;"></ion-icon>
+<ion-datetime displayFormat="DD MMM YYYY" pickerFormat="DD MMM YYYY" [(ngModel)]="travelDate"> </ion-datetime><ion-icon name="calendar" style="zoom:2.0;"></ion-icon>
 </ion-row>
 
 </ion-col>
@@ -62,7 +62,7 @@
 </ion-row>
 <ion-row> 
 <ion-col col-12 style="text-align: center;">
-<ion-label style="font-size: xx-large;">{{travelData | date}}</ion-label>
+<ion-label style="font-size: xx-large;">{{travelDate | date}}</ion-label>
 </ion-col>
 </ion-row>
 </ion-card-content>
